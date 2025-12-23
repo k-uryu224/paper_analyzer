@@ -22,8 +22,9 @@ arXiv 上の論文を検索し、Abstract をもとに **日本語の構造化�
 - Ollama（ローカル LLM 実行環境）
 
 ---
+## セットアップ手順
 
-## 1. リポジトリのクローン
+### 1. リポジトリ
 
 ```bash
 git clone https://github.com/k-uryu224/paper_analyzer.git
@@ -31,13 +32,13 @@ cd paper_analyzer
 
 ---
 
-## 2. Python 仮想環境の作成
+### 2. Python仮想環境の作成
 
 python3 -m venv .venv
 
 ---
 
-## 3. 仮想環境の有効化
+### 3. 仮想環境の有効化
 
 macOS / Linux
 source .venv/bin/activate
@@ -46,13 +47,13 @@ Windows
 
 ---
 
-## 4.依存ライブラリのインストール
+### 4.依存ライブラリのインストール
 
 pip install requests
 
 ---
 
-## 5.Ollama のセットアップ
+### 5.Ollama のセットアップ
 
 # Ollama が未インストールの場合は以下から取得
 
@@ -68,20 +69,20 @@ ollama list
 
 ---
 
-## 6.プログラムの実行
+### .プログラムの実行
 
 python main.py
 
 ---
 
-## 7.実行時の入力例
+### 7.実行時の入力例
 
 > 検索クエリ: transformer robustness
 > 論文数: 3
 
 ---
 
-## 8.実行フロー
+### 8.実行フロー
 
 arXiv API で論文を検索
 Abstract を取得
@@ -91,10 +92,11 @@ result.md に保存
 
 ---
 
-## 9.相談モードの使い方
+### 9.相談モードの使い方
 
 result.md を使って相談しますか？ (y/n):
 質問: これらの論文に共通する課題は何ですか？
 ・回答は result.md の内容のみ を根拠に生成されます
 ・関連する論文番号・タイトルが明示されます
 ・Enter のみで終了します
+
