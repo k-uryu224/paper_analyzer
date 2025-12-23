@@ -19,7 +19,6 @@ arXiv 上の論文を検索し、Abstract をもとに **日本語の構造化�
 ## 必要要件
 
 - macOS / Linux（Windows でも可）
-- Python 3.9 以上
 - Ollama（ローカル LLM 実行環境）
 
 ---
