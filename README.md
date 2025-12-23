@@ -56,7 +56,8 @@ pip install requests
 ## 5.Ollama のセットアップ
 
 # Ollama が未インストールの場合は以下から取得
-# https://ollama.com/
+
+https://ollama.com/
 
 # 使用するモデルを取得
 
