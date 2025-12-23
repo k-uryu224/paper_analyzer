@@ -24,11 +24,9 @@ arXiv 上の論文を検索し、Abstract をもとに **日本語の構造化�
 ---
 ## セットアップ手順
 
----
-
+```bash
 1. リポジトリ
 
-```bash
 git clone https://github.com/k-uryu224/paper_analyzer.git
 cd paper_analyzer
 
