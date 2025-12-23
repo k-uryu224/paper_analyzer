@@ -68,7 +68,7 @@ ollama pull qwen2.5:7b
 ollama list
 
 ---
-
+```bash
 プログラムの実行
 
 python main.py
