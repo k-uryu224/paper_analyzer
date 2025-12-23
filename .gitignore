@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Output
+result.md
