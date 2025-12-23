@@ -69,7 +69,7 @@ ollama list
 
 ---
 
-プログラムの実行
+6.プログラムの実行
 
 python main.py
 
